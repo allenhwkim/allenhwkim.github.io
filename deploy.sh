@@ -1,4 +1,5 @@
-# show each command
+# show each command that runs
+# run command only if previous command ran successfully
 
 git pull
 cp -R ../allenkim.me/build/* .
