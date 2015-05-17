@@ -4,8 +4,8 @@
 
 git pull
 cp -R ../allenkim.me/build/* .
-git diff
-git add -A
+git status
 read -p "Please confirm this changes to commit " -n 1 -r
+git add -A
 git commit -m"updated"
 git push
