@@ -1,4 +1,4 @@
-#!/bin/bash -vx
+#!/bin/bash -evx
 # show each command that runs
 # run command only if previous command ran successfully
 
