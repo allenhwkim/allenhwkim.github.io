@@ -107,6 +107,7 @@ a {
 
 /* ---- text ---- */
 .txt-white { color: #fff; }
+.txt-grey  { color: grey; }
 .txt-shadow { text-shadow: 0px 1px 1px #333; }
 .txt-center { text-align: center; }
 .txt-red { color: #b1470a; }

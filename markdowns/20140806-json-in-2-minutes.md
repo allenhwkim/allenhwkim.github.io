@@ -6,8 +6,9 @@ The following is short introduction of JSON to the beginners
 It is a google presentation.
 <!--more-->
 
-https://docs.google.com/presentation/d/1GiB0QW4WooJMw_5y-NqC_LZ_68uv2YEGMsBM0NTSpZw/pub?start=false&loop=false&delayms=3000
+<iframe src="https://docs.google.com/presentation/d/1GiB0QW4WooJMw_5y-NqC_LZ_68uv2YEGMsBM0NTSpZw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-I wanted to embed the slides, but it seems tumblr does not allow iframe with external source.
+Slides:
+https://docs.google.com/presentation/d/1GiB0QW4WooJMw_5y-NqC_LZ_68uv2YEGMsBM0NTSpZw/pub?start=false&loop=false&delayms=3000
 
 Hope this helps anyone who is new to JSON.
