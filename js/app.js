@@ -44,7 +44,7 @@
     }
   });
 
-  angular.module('blog').controller('postCtrl', function($scope, $rootScope, $stateParams, filterFilter) {
+  angular.module('blog').controller('postCtrl', function($scope, $window, $stateParams, filterFilter) {
     $scope.post = $stateParams.post;
     $scope.date = $scope.post.match(/^[0-9]{8}/)[0].replace(/(\d\d)(\d\d)$/, "/$1/$2")
     $scope.title = document.title = $scope.post.
@@ -54,5 +54,6 @@
         return ' ' + $1.toUpperCase();
       });
     $scope.random = Math.floor(Math.random()*12);
+    $window.scroll(0,0);
   });
 })();
