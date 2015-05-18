@@ -45,7 +45,7 @@
   });
 
   angular.module('blog').controller('postCtrl', function($scope, $window, $stateParams, filterFilter) {
-    $window.scroll(0,0);
+    window.scroll(0,0);
     $scope.post = $stateParams.post;
     $scope.date = $scope.post.match(/^[0-9]{8}/)[0].replace(/(\d\d)(\d\d)$/, "/$1/$2")
     $scope.title = document.title = $scope.post.
