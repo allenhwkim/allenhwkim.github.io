@@ -17,7 +17,7 @@
     var html = marked(markdown);
     var htmlPath = path.join(OUTPUT_DIR,
       articlePath.
-        replace('posts/','partials/posts/').
+        replace('markdowns/','partials/posts/').
         replace(/\.md$/, '.html')); 
     fs.writeFileSync(htmlPath, html);
   };
@@ -33,7 +33,9 @@
     var markdown = contents.replace(/---(.|\n)*\n---\n/,''); // remove fronMatter data
     var summary = markdown.split('<!--more-->')[0];
     summary = marked(summary).replace(/<[^>]+>/g,'');
-    articleData.path = articlePath.replace(/\.md$/, '.html');
+    articleData.path = articlePath
+      .replace(/markdowns\//, 'posts\/')
+      .replace(/\.md$/, '.html');
     articleData.date = articlePath.match(/\/([0-9]+)-/)[1];
     articleData.summary = summary.replace(/&quot;/g,'"').replace(/&#39;/g, "'");
     return articleData;
@@ -81,7 +83,7 @@
     }
   };
 
-  glob('posts/*.md', function (err, articles) {
+  glob('markdowns/*.md', function (err, articles) {
     if (err) { throw err; }
 
     var allArticles = [], articleData, articlePath;
