@@ -33,12 +33,12 @@ body {
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -110,6 +110,7 @@ a {
 .txt-shadow { text-shadow: 0px 1px 1px #333; }
 .txt-center { text-align: center; }
 .txt-red { color: #b1470a; }
+.txt-uppercase {text-transform: uppercase;}
 
 /* ---- paddings ---- */
 .pad-1 { padding: 1em};

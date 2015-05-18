@@ -1,0 +1,33 @@
+{
+  "name": "allenhwkim.github.io",
+  "version": "1.0.0",
+  "description": "Less Code, More Output - Allen Kim",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf partials/posts/* api/* && node js/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allenhwkim/allenhwkim.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "markdown",
+    "angularjs"
+  ],
+  "author": "Allen Kim",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "gulp": "^3.8.10"
+  },
+  "devDependencies": {
+    "angular-template": "^0.3.0",
+    "browser-sync": "^2.7.1",
+    "front-matter": "^1.0.0",
+    "glob": "^5.0.3",
+    "marked": "^0.3.3",
+    "run-sequence": "^1.0.2",
+    "through2": "^0.6.3"
+  }
+}

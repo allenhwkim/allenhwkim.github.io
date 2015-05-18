@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('blog',['ngTouch', 'ui.router']);
+  angular.module('blog',['ngTouch', 'ui.router', 'ngMap']);
 
   angular.module('blog').config(function($stateProvider, $locationProvider, $urlRouterProvider) {
     $locationProvider.html5Mode(true);
@@ -46,9 +46,10 @@
 
   angular.module('blog').controller('postCtrl', function($scope, $rootScope, $stateParams, filterFilter) {
     $scope.post = $stateParams.post;
-    document.title = $scope.post.
+    $scope.date = $scope.post.match(/^[0-9]{8}/)[0].replace(/(\d\d)(\d\d)$/, "/$1/$2")
+    $scope.title = document.title = $scope.post.
       replace(/\.html$/, '').
-      replace(/^(.*)[0-9]+/, '').
+      replace(/^[0-9]{8}/, '').
       replace(/-([a-z])/gi, function(_, $1) { 
         return ' ' + $1.toUpperCase();
       });

@@ -21,7 +21,7 @@
       <section class="vh-50 txt-center">
         <div class="wrapper">
           <h1>{{post.title}}</h1>
-          <p>{{post.summary}}.</p>
+          <p ng-bind="post.summary"></p>
           <a href="/{{post.path}}">More</a> 
         </div>
       </section>
