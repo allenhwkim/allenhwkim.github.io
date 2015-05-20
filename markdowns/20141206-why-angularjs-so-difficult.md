@@ -9,7 +9,7 @@ Did I say "Easy"? Yes I did. You may say "No, the learning curve of AngularJS is
 <!--more-->
   
 <div style="float:right;text-align:center;width:50%;">
-  <img src="//allenkim.me/static/images/3a2fb948605cfce8712bd0bbd85984e5.png" width="100%" /><br/>
+  <img src="images/3a2fb948605cfce8712bd0bbd85984e5.png" width="100%" /><br/>
   <a href="http://www.bennadel.com/blog/2439-my-experience-with-angularjs-the-super-heroic-javascript-mvw-framework.htm">Image from bennadel.com</a>
 </div>
 
@@ -100,7 +100,7 @@ Yes, jQuery is a library, and BackboneJS is a library.
 
 **Imperative Programming Example**
 
-<img src="//allenkim.me/static/images/350e018c74a5fdd756324342029244e2.png" align="right" width="25%" />
+<img src="images/350e018c74a5fdd756324342029244e2.png" align="right" width="25%" />
 
 Let's look at the bady on the right side. To make him eat and grow well, we need to tell every single instruction to get the job done. Open mouth, watch this, swallow it, don't spit, don't drop.. etc.
 
@@ -141,7 +141,7 @@ You can see the complete code [here](https://developers.google.com/maps/document
 
 **Decrative Programming Example**
 
-<img src="//allenkim.me/static/images/2251c18455731211e2bef5519999eab7.png" align="left" width="25%" />
+<img src="images/2251c18455731211e2bef5519999eab7.png" align="left" width="25%" />
 
 The boy on the left side can eat by himself. We don't need to tell him how to eat food. The only thing we need to do is give him food, of course, good healthy food.
 
@@ -175,7 +175,7 @@ So many years, we are so accustomed to MVC pattern, even in HTML/Javascript fron
 
 The reason is simple, the interactions between user and web page does not start from controller, the starting point of MVC-pattern. As you see in the diagram below, in MVC-pattern, user interaction are starting from controller, not view(HTML). However, in reality, user talks to HTML, and everything starts from HTML, not a controller that overlooks HTML.
 
-<img src="//allenkim.me/static/images/334e8fbcd4eff86053c04d4ca82a760f.png" width="50%" />
+<img src="images/334e8fbcd4eff86053c04d4ca82a760f.png" width="50%" />
 
 In AngularJS, this changes. Everything is HTML-centric;
 
@@ -184,7 +184,7 @@ In AngularJS, this changes. Everything is HTML-centric;
   3. Functionality is exposed out to HTML
   4. Coding starts from HTML
 
-<img src="//allenkim.me/static/images/16c609af3525cb06006190aea43acfbc.png" width="50%" />
+<img src="images/16c609af3525cb06006190aea43acfbc.png" width="50%" />
 
 ## Conclusion
 

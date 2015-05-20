@@ -17,7 +17,7 @@ I found [angular-carousel](http://ngmodules.org/modules/angular-carousel) used b
     
 Where is navigation buttons? What does it do when navagitaion button is clicked? In my opinion, the way to build a directive like the above is JQuery plugin way, not a Angular way.
 
-<a href="http://plnkr.co/edit/NukxpGel8I53ZSCwCWob?p=preview"><img src="http://allenkim.me/static/images/bf345a2d9c14a60af5465fd8f188f30a.png" width="80%" /></a>
+<a href="http://plnkr.co/edit/NukxpGel8I53ZSCwCWob?p=preview"><img src="images/bf345a2d9c14a60af5465fd8f188f30a.png" width="80%" /></a>
 
 What is "Angular Way" anyway? The answer is there is no answer for that. The answer for that is different from each person.
 
@@ -82,7 +82,7 @@ At this time, I do not think of Javascript nor css. Those will be completed by t
       
     </section>
 
-<img src="http://allenkim.me/static/images/b0c2fc677400dd73f2ea451f6d1549dc.png" align="right" style="margin:1em" width="300" />
+<img src="images/b0c2fc677400dd73f2ea451f6d1549dc.png" align="right" style="margin:1em" width="300" />
   
 The html above will look like the picture on the right. The look-and-feel is not even close, but the requirements are all in there. By only reading html, it is a carousel that I want to build.
 
@@ -130,7 +130,7 @@ I prefer using class names and inline style attribute for css styling. You may s
     </section>
     
 
-<img src="http://allenkim.me/static/images/6019a38fede86f042bbdb950fe1d4224.png" width="300" align="left" style="margin:1em" />
+<img src="images/6019a38fede86f042bbdb950fe1d4224.png" width="300" align="left" style="margin:1em" />
 
 With the code above, it looks like the picture on the left side. I have used several class names, which are general and also not to DOM-specific. The reason I prefer to use general class name is that I can reuse it any time when I want. I also found that using common class name also saves me from coding the same css attributes again and again.
 
