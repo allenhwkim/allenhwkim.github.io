@@ -2,8 +2,8 @@
 title: Graceful AngularJS Form Validator
 ---
 
-How It Works
-------------
+## How It Works
+
 This module gracefully injects Angular validation rules from a JSON object ONLY if not defined.
 
 For example, there is validation rule given as `{minlength:1}`,  
@@ -11,14 +11,26 @@ For example, there is validation rule given as `{minlength:1}`,
 
 ![Imgur](http://i.imgur.com/tQS4sQk.png?2)
 
-This input  | Will become
-------------- | -------------
-`<input name="foo" />` | `<input name="foo" ng-minlength="1"  ng-model="user.foo"  />`    
-`<input name="foo" ng-minlength="20" />` | `<input name="foo" ng-minlength="20"  ng-model="user.foo"  />`
+<table>
+<tr>
+  <th>This input 
+  <th> Will become
+</tr>
+<tr>
+  <td>
+    `<input name="foo" />` 
+  <td>
+    `<input name="foo" ng-minlength="1"  ng-model="user.foo"  />`    
+<tr>
+  <td>
+    `<input name="foo" ng-minlength="20" />` 
+  <td>
+    `<input name="foo" ng-minlength="20"  ng-model="user.foo"  />`
+</tr>
+</table>
 
 <br/>
-Why Another Validator?
------------------------
+## Why Another Validator?
 
 There are many form validation modules in github, but There is none found which is 100% AngularJS syntax compliant validator. All of them are using its own syntax by ignoring AngularJS syntaxe, `ng-minlength`, `min`, `max`, etc.   
 

@@ -35,8 +35,7 @@ The following is the requirement I gathered to make a carousel.
 For TL;DR;, who wants to see the result first, this is [the final result](http://embed.plnkr.co/NukxpGel8I53ZSCwCWob/preview
 ).
 
-Requirements
-------------
+## Requirements
 
  1. Must be navigable through slides.  
     1) Hide previous button when it is the first slide    
@@ -60,8 +59,7 @@ If you are updating an existing project, you don't need to this step.
 
 I am ready now, let me start the coding.
 
-First Step. Complete HTML with Requirements
--------------------------------------------
+## First Step. Complete HTML with Requirements
 
 At this time, I do not think of Javascript nor css. Those will be completed by the next steps.
 
@@ -105,8 +103,7 @@ Let me check it again that the above HTML stastifies all the  requirements.
 
     want to handle this not with javascript nor AngularJS but with css**
     
-Second Step, Complete CSS styling 
------------------------------------
+## Second Step, Complete CSS styling 
 
 I prefer using class names and inline style attribute for css styling. You may say inline style attributes are not recommended. However, at this step, I want to see how it looks like. Later, inline style attribute will be removed and converted into AngularJS directives.
 
@@ -143,8 +140,7 @@ It's ready. HTML is fully descriptive, and look-and-feel is the same as required
 
 However, it is not fully functional. We need to nail the requirements with Javascript.
 
-The final step, Javascript
---------------------------
+## The final step, Javascript
 
 The above html is somewhat invasive because of the inline styles. We can remove all inline css and build into AngularJS directives.
 
@@ -200,8 +196,7 @@ This is the final [HTML](http://embed.plnkr.co/NukxpGel8I53ZSCwCWob/index.html)
 You can check the final Javascript [here](http://embed.plnkr.co/NukxpGel8I53ZSCwCWob/script.js).
 
   
-Conslusion
------------
+## Conslusion
 
 Someone may say HTML is too long and has too many classes, and someone may say HTML has too many details for functionalities.
 

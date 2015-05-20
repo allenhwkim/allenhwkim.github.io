@@ -1,3 +1,49 @@
+<p>I was having hard time to document my angularJS directive, <a href="https://github.com/allenhwkim/angularjs-google-maps">https://github.com/allenhwkim/angularjs-google-maps</a>. The following is the list of documentation tools I have tried and built</p>
+<!--more-->
+<h2 id="1-docular-https-github-com-gitsome-docular-">1. <a href="https://github.com/gitsome/docular">docular</a></h2>
+<p> <strong>Pretty but not simple</strong></p>
+<p> We can follow <a href="https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation">this guide</a>, then run this docular to generate documentation</p>
+<p> <img src=http://i.imgur.com/MdiWXd2.png border=2 width="50%" /></p>
+<p> Pros:</p>
+<ul>
+<li>It generates the exactly the same style of AngularJS documentation from your code</li>
+<li>It follows the same tagging that AngularJS Code</li>
+<li><p>Clone of AngularJS Documentation Engine</p>
+<p>Cons: </p>
+</li>
+<li><p>Need to start a server to see the documentation</p>
+</li>
+<li>Dependent on grunt and grunt-docular</li>
+<li>Requires grunt-docular configuration</li>
+<li>So many custom tags to learn</li>
+<li>and more configuration, tl;dr</li>
+</ul>
+<h2 id="2-jsdoc-http-usejsdoc-org-">2. <a href="http://usejsdoc.org/">JSDoc</a></h2>
+<p> Simple but not pretty</p>
+<p> <img src=http://i.imgur.com/pBWCd2P.png border=2 width="50%" /></p>
+<p> Pros:  </p>
+<ul>
+<li>No server is required to see the documentation</li>
+<li><p>Command line available</p>
+<p>Cons:  </p>
+</li>
+<li><p>group by classes, modules, etc, but not group by controllers, directives, filters, etc</p>
+</li>
+<li>No fancy output. i.e. <a href="http://gitgrimbo.github.io/jsdoc3-examples/jsdoc/">http://gitgrimbo.github.io/jsdoc3-examples/jsdoc/</a></li>
+</ul>
+<h2 id="3-dgeni-https-github-com-angular-dgeni-">3. <a href="https://github.com/angular/dgeni">dgeni</a></h2>
+<p> Dgeni is a documentation generator developed by the Angular team.</p>
+<p> <img src=http://i.imgur.com/KSiJrHy.png border=2 width="50%" /></p>
+<p> pros:  </p>
+<ul>
+<li><p>angularjs family use this; angularjs, protractor, and ionic</p>
+<p>cons :   </p>
+</li>
+<li><p>complex; no guide, no tutorial, nor documentation</p>
+</li>
+<li>so many steps; 14 steps of document generation(pros?)</li>
+</ul>
+<h2 id="4-allen-s-conclusion-https-github-com-allenhwkim-angular-jsdoc-">4. <a href="https://github.com/allenhwkim/angular-jsdoc">Allen&#39;s Conclusion</a></h2>
 <p> Why can&#39;t we just have simple documentation generator like javaDoc?
  JSDoc works like a javaDoc,but it&#39;s not customized for AngularJS.
  Then, if I customize JSDoc for AngularJS using plugin and template....?</p>

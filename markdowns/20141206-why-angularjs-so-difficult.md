@@ -17,8 +17,7 @@ Based on my experience, it’s hard because we still think HTML is not expressiv
   
 How come? HTML is static and has limited tags and attributes!!! period!! It’s never been used for behavioural functionalities. Yes, it has been. However, AngularJS changes HTML behavioural as defined, yes, "Behavioural As Defined", and again, "Behavioural As Defined".
 
-1. HTML is Behavioural As Defined
----------------------------------
+## 1. HTML is Behavioural As Defined
 
 Let’s see HTML code some without AngularJS.
 
@@ -73,8 +72,7 @@ As we all know, we have been avoiding to code like the above because;
    Yes it is. "data-ng-click", "data-foo", "data-bar", these are all 
    valid HTML5 attribute.
 
-2. AngularJS is a Framework Not a Library
------------------------------------------
+## 2. AngularJS is a Framework Not a Library
 
 Martin Folwer discusses the difference between a library and a framework in his article, [Inversion of Control](http://martinfowler.com/bliki/InversionOfControl.html)
 
@@ -98,8 +96,7 @@ What other libraries do you know?
 
 Yes, jQuery is a library, and BackboneJS is a library.
 
-3. AngularJS is Declarative Not Imperative
--------------------------------------------
+## 3. AngularJS is Declarative Not Imperative
 
 **Imperative Programming Example**
 
@@ -170,8 +167,8 @@ These are what needs to be done described on the above html;
 To see the fully working example of that code, please visit [here](http://ngmap.github.io/events.html#/event-simple#event-simple)
 
 
-AngularJS is HTML-centric
---------------------------
+## AngularJS is HTML-centric
+
 **Not MVC-patterned**
 
 So many years, we are so accustomed to MVC pattern, even in HTML/Javascript front-end development. It worked for many years with BackboneJS and jQuery MVC implementations. However, unless you are very good at designing and maintaining your code cleanly, it is hard to organize and make it easy to maintain in MVC-patterned way. 
@@ -189,8 +186,7 @@ In AngularJS, this changes. Everything is HTML-centric;
 
 <img src="//allenkim.me/static/images/16c609af3525cb06006190aea43acfbc.png" width="50%" />
 
-Conclusion
------------
+## Conclusion
 
 I have started this article with the title of "Why AngularJS So Difficult", and my answer to it is, because **"We are still thinking HTML/Javascript-Together"**, and we are not really thinking "HTML-first". All three sections mentioned in this article are all about HTML.
 

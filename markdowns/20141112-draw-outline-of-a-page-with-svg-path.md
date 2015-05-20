@@ -10,8 +10,8 @@ For TL;DR;
  * [demo for github](https://rawgit.com/allenhwkim/drawpage/master/demo/github.com-explore.html)
  * [demo for Facebook](https://rawgit.com/allenhwkim/drawpage/master/demo/facebook.html)
  * [demo for demo](https://rawgit.com/allenhwkim/drawpage/master/demo/demo1.html)
-How to use
-----------
+
+## How to use
 
   * To draw your page every time when page loads, append the following code at the end of your page
 
