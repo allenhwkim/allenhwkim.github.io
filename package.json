@@ -1,33 +1,51 @@
 {
-  "name": "allenhwkim.github.io",
-  "version": "1.0.0",
-  "description": "Less Code, More Output - Allen Kim",
-  "main": "index.js",
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
   "scripts": {
-    "build": "rm -rf partials/posts/* api/* && node js/build.js"
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/allenhwkim/allenhwkim.github.io.git"
-  },
-  "keywords": [
-    "blog",
-    "markdown",
-    "angularjs"
-  ],
-  "author": "Allen Kim",
-  "license": "MIT",
-  "readmeFilename": "README.md",
   "dependencies": {
-    "gulp": "^3.8.10"
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "@ionic/storage": "1.1.7",
+    "ionic-angular": "2.0.0",
+    "ionic-native": "2.4.1",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.26",
+    "sw-toolbox": "3.4.0"
   },
   "devDependencies": {
-    "angular-template": "^0.3.0",
-    "browser-sync": "^2.7.1",
-    "front-matter": "^1.0.0",
-    "glob": "^5.0.3",
-    "marked": "^0.3.3",
-    "run-sequence": "^1.0.2",
-    "through2": "^0.6.3"
-  }
+    "@ionic/app-scripts": "1.0.0",
+    "typescript": "2.0.9"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ],
+  "description": "githubIonic: An Ionic project"
 }
