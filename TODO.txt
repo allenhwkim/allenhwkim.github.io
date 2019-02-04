@@ -6,6 +6,8 @@
 * inview
   * https://github.com/allenhwkim/ngd/blob/master/ngd-viewport.js
 
-* float
+* float(sticky)
   * https://github.com/allenhwkim/ngd/blob/master/ngd-fixed-under.js
+  * https://github.com/ng2-ui/sticky/blob/master/src/sticky.directive.ts
+  * https://css-tricks.com/stickybits-alternative-position-sticky-polyfills/
   
