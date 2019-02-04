@@ -30,6 +30,8 @@ xtag.create('x-frankenstein', class extends XTagElement {
   * automatic file type detection
   * preview including 'image', 'audio', 'video'
   * callbacks when dropped
+  * https://github.com/allenhwkim/ngd/blob/master/ngd-image-drop.js
+  * https://github.com/allenhwkim/ngd/blob/master/ngd-image-paste.js
   
 * inview
   * https://github.com/allenhwkim/ngd/blob/master/ngd-viewport.js
