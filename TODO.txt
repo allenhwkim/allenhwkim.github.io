@@ -1,0 +1,11 @@
+* File drag and drop
+  * automatic file type detection
+  * preview including 'image', 'audio', 'video'
+  * callbacks when dropped
+  
+* inview
+  * https://github.com/allenhwkim/ngd/blob/master/ngd-viewport.js
+
+* float
+  * https://github.com/allenhwkim/ngd/blob/master/ngd-fixed-under.js
+  
