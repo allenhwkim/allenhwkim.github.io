@@ -1,6 +1,31 @@
 * Pure Javascript source code examples
   - e.g. convert to camelcase
 
+* Compare implmentation of custom elements 
+  *  X-Tag / Slim.js / Polymer / Riot.js / Smart.
+  * browser-support
+  * template support
+  * css support
+  * polyfill required?
+  * Need to learn lifecycle?
+  * Need to learn its own framework?
+  * Property binding(One-way or one-time binding)
+  * Property inheritance to its children
+  * Event binding
+  * The simplest code example
+  
+  http://slimjs.com/#/component-lifecycle
+  
+```
+xtag.create('x-frankenstein', class extends XTagElement {
+  name (){ return 'Frankenstein'; }
+  '::template(true)' (){
+    return `<h2>I am ${this.name()}</h2>
+            <span>I was created by a mad scientist</span>`
+  }
+});
+```
+  
 * File drag and drop
   * automatic file type detection
   * preview including 'image', 'audio', 'video'
