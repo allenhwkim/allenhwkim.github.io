@@ -1,3 +1,6 @@
+* Pure Javascript source code examples
+  - e.g. convert to camelcase
+
 * File drag and drop
   * automatic file type detection
   * preview including 'image', 'audio', 'video'
