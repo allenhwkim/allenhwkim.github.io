@@ -7,8 +7,8 @@
   * template support
   * css support
   * polyfill required?
-  * Need to learn lifecycle?
-  * Need to learn its own framework?
+  * Need to learn a new lifecycle?
+  * Need to learn a new syntax?
   * Property binding(One-way or one-time binding)
   * Property inheritance to its children
   * Event binding
@@ -25,17 +25,3 @@ xtag.create('x-frankenstein', class extends XTagElement {
   }
 });
 ```
-  
-* File drag and drop
-  * automatic file type detection
-  * preview including 'image', 'audio', 'video'
-  * callbacks when dropped
-  * https://github.com/allenhwkim/ngd/blob/master/ngd-image-drop.js
-  * https://github.com/allenhwkim/ngd/blob/master/ngd-image-paste.js
-  
-* inview
-  * https://github.com/allenhwkim/ngd/blob/master/ngd-viewport.js
-
-* float(sticky)
-  * https://github.com/ng2-ui/sticky/blob/master/src/sticky.directive.ts
-  
